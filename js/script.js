@@ -28,3 +28,7 @@ const passResult = userName + userLastname + userFavColor + endPassword;
 console.log(passResult);
 
 document.getElementById('result_input').innerText = passResult;
+
+// Greets user
+document.getElementById('title_username').innerText = userName + ' ' + userLastname;
+
