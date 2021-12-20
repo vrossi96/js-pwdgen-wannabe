@@ -6,3 +6,8 @@
 4- Stampa nomecognomecolorepreferito21
 
 */
+
+// 1- Chiedere Nome
+const userName = prompt('Come ti chiami?')
+console.log(userName)
+
