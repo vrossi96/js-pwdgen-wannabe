@@ -5,4 +5,17 @@ body {
 .rounded-pill {
   border-color: white;
   background-color: #55dbcb;
+  animation: helo 3s infinite;
+}
+
+@keyframes helo {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
