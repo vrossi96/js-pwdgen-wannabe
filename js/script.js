@@ -22,3 +22,9 @@ console.log(userFavColor);
 // Aggiunto 21 per aggiunta al risultato finale
 const endPassword = '21';
 console.log(endPassword);
+
+// 4- Stampa nomecognomecolorepreferito21
+const passResult = userName + userLastname + userFavColor + endPassword;
+console.log(passResult);
+
+document.getElementById('result_input').innerText = passResult;
