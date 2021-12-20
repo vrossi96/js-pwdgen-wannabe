@@ -1,7 +1,7 @@
 /* TRACCIA E PASSI
 
-1- Chiedere nome
-2- Chiedere cognome
+1- Chiedere Nome
+2- Chiedere Cognome
 3- Chiedere colore preferito
 4- Stampa nomecognomecolorepreferito21
 
@@ -11,3 +11,6 @@
 const userName = prompt('Come ti chiami?')
 console.log(userName)
 
+// 2- Chiedere Cognome
+const userLastname = prompt('Qual\'è il tuo cognome?')
+console.log(userLastname)
