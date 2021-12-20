@@ -8,13 +8,17 @@
 */
 
 // 1- Chiedere Nome
-const userName = prompt('Come ti chiami?')
-console.log(userName)
+const userName = prompt('Come ti chiami?');
+console.log(userName);
 
 // 2- Chiedere Cognome
-const userLastname = prompt('Qual\'è il tuo cognome?')
-console.log(userLastname)
+const userLastname = prompt('Qual\'è il tuo cognome?');
+console.log(userLastname);
 
 // 3- Chiedere colore preferito
-const userFavColor = prompt('Qual\'è il tuo colore preferito?')
-console.log(userFavColor)
+const userFavColor = prompt('Qual\'è il tuo colore preferito?');
+console.log(userFavColor);
+
+// Aggiunto 21 per aggiunta al risultato finale
+const endPassword = '21';
+console.log(endPassword);
